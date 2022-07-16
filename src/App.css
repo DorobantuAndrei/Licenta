@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+html {
+    font-size: 14px;
+    height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card {
+
+    width: auto;
+    background-color: white;
+    /* background: var(--surface-card); */
+    color: var(--text-color);
+    padding: 2rem;
+    border-radius: 10px;
+    border: var(--gray-900) 2px !important;
+    margin-bottom: 2rem;
+    justify-content: left;
+    margin: 10px;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    background-image: url('./background.jpg');
+    background-size: cover;                   
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: hsl(187, 38%, 91%);
+    /* font-family: Lato, Helvetica, sans-serif, -apple-system, BlinkMacSystemFont,Segoe UI, Roboto, Arial, sans-serif, Apple Color Emoji,Segoe UI Emoji, Segoe UI Symbol; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, serif;
+    font-weight: normal;
+    color: #495057;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0.5em;
+    margin-bottom: 50px;
+    height: 100%;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    flex-wrap: wrap;
+    align-content: center;
+  
   }
-  to {
-    transform: rotate(360deg);
+
+  .buton_in_flecs {
+    text-align: center;
+    margin: 10px;
   }
+  .header_light {
+    color: var(--surface-ground)
+  }
+
+  .margin-left-button{
+    margin-left: 12px !important;
+    margin-bottom: 12px;
+  }
+
+
+  .margin-top-button{
+    margin-top: 12px;
+  }
+
+  .center-div{
+  margin: 0 auto;
+  max-width: 700px;
+  height: 100px;
+  background-color: #ccc;
+  border-radius: 3px;
+  background-image: url('./be_patient_logo.png');
+  background-size: cover;                   
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 500px;
+  width: 500px;
+  border-radius: 50px;
+  margin-top: 50px;
+
 }
+  .main_container_columns {
+    display: flex;
+    display: inline-block;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  label {
+    /* Other styling... */
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:15px;
+}
+  
